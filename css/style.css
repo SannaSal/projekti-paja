@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+}
+h1{
+    color: #000;
+    text-align: center;
+}
+p{
+    margin: auto;
+    max-width: 700px;
+}
+.container{
+    margin: auto;
+    width: 92%;
+    max-width: 1200px;
+    background-color: green;
+}
