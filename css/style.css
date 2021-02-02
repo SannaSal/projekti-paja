@@ -88,7 +88,7 @@ body {
     width: 65%;
     padding: 5px;
 
-    },
+    }
 
 
   /* Main-col */
@@ -110,47 +110,57 @@ body {
    }
 
 
-    /* Image-slider */
-    .slide-container {
-      width: 800px;
-      height: 600px;
-      margin-left: auto;
-      margin-right: auto;
-      overflow: hidden;
-      text-align: center;
+  /* Image-slider */
+  .slider-frame {
+    width: 640px;
+    height: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    border-radius: 7.5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:100%;
+    max-height: auto;
   }
-  .image-container {
-      width: 2400px;
-      height: 600px;
-      position: relative;
-      transition: left 2s;
-      -webkit-transition: left 2s;
+  
+  /* ANIMATION */
+  
+  @-webkit-keyframes slide_animation {
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:640px;}
+    30% {left:640px;}
+    40% {left: 1280px;}
+    50% {left: 1280px;}
+    60% {left: 640px;}
+    70% {left: 640px;}
+    80% {left: 0px;}
+    90% {left: 0px}
+    100% {left: 0px}
   }
-  .slider-image {
-      float: left;
-      margin: 0px;
-      padding: 0px;
+  
+  /* ANIMATION */
+  
+  .slide-images {
+    width: 1920px;
+    height: 420px;
+    position: relative;
+    margin: 0 0 0 -1280px;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
   }
-  .button-container {
-      top: -20px;
-      position: relative;
+  
+  .img-container {
+    float: left;
+    position: relative;
+    height: 420;
+    width: 640;
   }
-  .slider-button {
-      display: inline-block;
-      height: 10px;
-      width: 10px;
-      border-radius: 5px;
-      background-color: white;
-  }
-  #slider-image-1:target ~ .image-container {
-      left: 0px;
-  }
-  #slider-image-2:target ~ .image-container {
-      left: -800px;
-  }
-  #slider-image-3:target ~ .image-container {
-      left: -1600px;
-  }
+  
+  /* Image-slider-end */
 
   .wrapper{
     max-width: 900px;
