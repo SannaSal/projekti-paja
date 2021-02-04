@@ -114,7 +114,7 @@
   
   /* 48em = 768px */
   
-  @media (min-width: 48em) {
+  @media (min-width: 810px) {
     .header li {
       float: left;
     }
@@ -128,5 +128,8 @@
     }
     .header .menu-icon {
       display: none;
+    }
+    .header .container {
+      width: 85% !important;
     }
   }
