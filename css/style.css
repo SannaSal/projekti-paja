@@ -29,19 +29,25 @@ body {
   }
 
   .header_image{
-      display: block;
-      width: 100%;
-      padding: 191px 0 120px 0;
-      /*background-color: #d9effa;*/
-      background-image: url(../images/solarpanel.jpg);
-      background-size: cover;
-      margin-bottom: 50px;
+    display: block;
+    width: 100%;
+    padding: 191px 0 120px 0;
+    /*background-color: #d9effa;*/
+    background-image: url(../images/header_index.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
   }
+  .header_image.alasivu.tuotteet-ja-palvelut{
+    background-image: url(../images/header_tuotteet-ja-palvelut.jpg);
+}
+  .header_image.alasivu.yhteystiedot{
+    background-image: url(../images/header_yhteystiedot.jpg);
+}
   .header_image.alasivu{
     padding: 141px 0 100px 0;
 }
   .header_image .container{
-      max-width: 900px;
+    max-width: 900px;
   }
   .header_image.alasivu .container{
     width: 100%;
@@ -88,7 +94,7 @@ body {
     width: 65%;
     padding: 5px;
 
-    },
+    }
 
 
   /* Main-col */
