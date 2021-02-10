@@ -98,11 +98,33 @@ body {
 
   }
 
+<<<<<<< HEAD
   /* Services */
 
     ul#services{
         padding: 0 !important;
       }
+=======
+ /* Services */
+
+  ul#services{
+      padding: 0 !important;
+    }
+
+  ul#services li{
+     list-style: none;
+     padding: 20px;
+     border: #cccccc solid 1px;
+     margin-bottom: 5px;
+     background: #e6e6e6;
+
+
+
+
+
+
+   }
+>>>>>>> 8a88672cbd517419f5daafabb70b922fea6bb24b
 
     ul#services li{
        list-style: none;
@@ -112,6 +134,7 @@ body {
        background: #e6e6e6;
      }
 
+<<<<<<< HEAD
   /* Image-slider */
   .slider-frame {
     width: 640px;
@@ -163,6 +186,49 @@ body {
   }
 
   /* Image-slider-end */
+=======
+    /* Image-slider */
+    .slide-container {
+      width: 800px;
+      height: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      overflow: hidden;
+      text-align: center;
+  }
+  .image-container {
+      width: 2400px;
+      height: 600px;
+      position: relative;
+      transition: left 2s;
+      -webkit-transition: left 2s;
+  }
+  .slider-image {
+      float: left;
+      margin: 0px;
+      padding: 0px;
+  }
+  .button-container {
+      top: -20px;
+      position: relative;
+  }
+  .slider-button {
+      display: inline-block;
+      height: 10px;
+      width: 10px;
+      border-radius: 5px;
+      background-color: white;
+  }
+  #slider-image-1:target ~ .image-container {
+      left: 0px;
+  }
+  #slider-image-2:target ~ .image-container {
+      left: -800px;
+  }
+  #slider-image-3:target ~ .image-container {
+      left: -1600px;
+  }
+>>>>>>> 8a88672cbd517419f5daafabb70b922fea6bb24b
 
   .wrapper{
     max-width: 900px;
