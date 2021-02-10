@@ -226,4 +226,10 @@ body {
   color: #ffffff;
   background-color:#81c4c4;
   text-align:center;
-}
+  }
+  .kielinav{
+    right: 10px;
+    top: 20px;
+    position: fixed;
+  }
+

@@ -111,10 +111,8 @@
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
-  
-  /* 48em = 768px */
-  
-  @media (min-width: 48em) {
+
+  @media (min-width: 860px) {
     .header li {
       float: left;
     }
@@ -129,4 +127,11 @@
     .header .menu-icon {
       display: none;
     }
+    .header .container {
+      width: 85% !important;
+    }
+  }
+  a.kielinav{
+    text-decoration: none;
+    font-weight: 700;
   }
