@@ -98,13 +98,13 @@ body {
 
   }
 
-<<<<<<< HEAD
+
   /* Services */
 
     ul#services{
         padding: 0 !important;
       }
-=======
+
  /* Services */
 
   ul#services{
@@ -119,12 +119,7 @@ body {
      background: #e6e6e6;
 
 
-
-
-
-
    }
->>>>>>> 8a88672cbd517419f5daafabb70b922fea6bb24b
 
     ul#services li{
        list-style: none;
@@ -134,7 +129,7 @@ body {
        background: #e6e6e6;
      }
 
-<<<<<<< HEAD
+
   /* Image-slider */
   .slider-frame {
     width: 640px;
@@ -186,7 +181,7 @@ body {
   }
 
   /* Image-slider-end */
-=======
+
     /* Image-slider */
     .slide-container {
       width: 800px;
@@ -228,7 +223,6 @@ body {
   #slider-image-3:target ~ .image-container {
       left: -1600px;
   }
->>>>>>> 8a88672cbd517419f5daafabb70b922fea6bb24b
 
   .wrapper{
     max-width: 900px;
