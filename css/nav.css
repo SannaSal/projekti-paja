@@ -131,3 +131,7 @@
       width: 85% !important;
     }
   }
+  a.kielinav{
+    text-decoration: none;
+    font-weight: 700;
+  }
