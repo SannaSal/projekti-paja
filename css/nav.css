@@ -111,10 +111,8 @@
   .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     top: 0;
   }
-  
-  /* 48em = 768px */
-  
-  @media (min-width: 810px) {
+
+  @media (min-width: 860px) {
     .header li {
       float: left;
     }
