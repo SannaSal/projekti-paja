@@ -102,11 +102,16 @@ body {
 
   /* Main-col */
   article#main-col{
+    padding-top: 25px;
     float: left;
     width: 100%;
 
   }
 
+  article#main-col h2{
+    margin-left: 20px;
+    color: #FFF;
+  }
 
   /* Services */
 
@@ -118,6 +123,7 @@ body {
 
   ul#services{
       padding: 0 !important;
+      margin-bottom: 25px;
     }
 
   ul#services li{
